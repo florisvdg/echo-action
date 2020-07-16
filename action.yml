@@ -1,0 +1,8 @@
+name: Echo
+description: An action that simply echoes an input parameter
+runs:
+  using: docker
+  image: Dockerfile
+inputs:
+  message:
+    description: The message to echo
